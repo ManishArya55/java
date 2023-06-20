@@ -1,0 +1,31 @@
+D:\manish\java>java java
+hello world
+
+D:\manish\java>javac text.java
+
+D:\manish\java>java text
+Error: Could not find or load main class text
+
+D:\manish\java>javac apps.java
+apps.java:5: not a statement
+                int 1day;
+                ^
+apps.java:5: ';' expected
+                int 1day;
+                   ^
+apps.java:5: not a statement
+                int 1day;
+                      ^
+apps.java:6: not a statement
+                1day=365;
+                ^
+apps.java:6: ';' expected
+                1day=365;
+                  ^
+apps.java:7: ')' expected
+                System.out.println("Number of day =" + 1day);
+                                                         ^
+apps.java:7: illegal start of expression
+                System.out.println("Number of day =" + 1day);
+                                                           ^
+7 errors
